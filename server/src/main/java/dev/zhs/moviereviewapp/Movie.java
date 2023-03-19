@@ -23,7 +23,7 @@ public class Movie {
     private String trailerLink;
     private String poster;
     private List<String> genres;
-    private List<String> backdrop;
+    private List<String> backdrops;
 
 /*  DB will store only the ids of the review and the reviews will be stored in a separate connection, preventing repetition
     https://www.mongodb.com/docs/manual/tutorial/model-referenced-one-to-many-relationships-between-documents/ */
